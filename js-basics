@@ -31,3 +31,20 @@ function createArrayTemplate(array, length) {
 
 a = createArrayTemplate(a, 8);
 
+
+
+let a;
+let b;
+let c;
+ a===1 ? 
+ switch(b){
+	case 10:
+    c = 'x';
+    default:
+    c = 'y';
+} : switch(b){
+	case 5:
+    c = 'z';
+    default:
+    c = 'w';
+    }
