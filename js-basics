@@ -1,0 +1,16 @@
+function getAverageOfOddItems(array){
+let numberArray = [1, 2, 3, 4, 5, 6];
+let thisTotal = 0;
+let thisAverage = 0;
+
+let oddArray = numberArray.filter(function(val) {
+  return val % 2 !== 0;
+});
+
+let total = oddArray.reduce(function(accumulator, currentValue) { return  accumulator + currentValue;
+});
+
+let average = total / oddArray.length;
+return average;
+}
+
