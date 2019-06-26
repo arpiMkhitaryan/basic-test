@@ -26,7 +26,7 @@ function createArrayTemplate(array, length) {
     array[current] = array[top];
     array[top] = tmp;
   }
-  return array.slice(length);
+  return array.slice(0,length);
 }
 
 a = createArrayTemplate(a, 8);
